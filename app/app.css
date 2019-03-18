@@ -1,0 +1,25 @@
+﻿GridLayout {
+    padding-bottom: 10;
+}
+
+.my-lbl {
+    width: 250;
+    height: 100%;
+    border-color: blueviolet;
+    color: rgb(82, 20, 139);
+    background-color: rgb(200, 149, 248);
+    border-width: 2;
+    border-radius: 10;
+    font-size: 50;
+    font-weight: bold;
+    text-align: center;
+    margin: 10;
+}
+
+button {
+    border-color: blue;
+    border-width: 1;
+    border-radius: 5;
+    margin: 5;
+    padding: 5;
+}

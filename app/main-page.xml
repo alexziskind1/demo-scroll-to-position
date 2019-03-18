@@ -1,0 +1,25 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" class="page">
+
+    <Page.actionBar>
+        <ActionBar title="My App" icon="" class="action-bar">
+        </ActionBar>
+    </Page.actionBar>
+
+    <GridLayout rows="60, *">
+
+        <FlexboxLayout>
+
+            <Button text="ID" tap="scrollToId" />
+
+            <Button text="START" tap="scrollToStart" />
+            <Button text="MIDDLE" tap="scrollToMiddle" />
+            <Button text="END" tap="scrollToEnd" />
+        </FlexboxLayout>
+
+        <ScrollView id="myScroller" orientation="horizontal" row="1">
+            <StackLayout id="contentContainer" orientation="horizontal"></StackLayout>
+        </ScrollView>
+
+    </GridLayout>
+
+</Page>
